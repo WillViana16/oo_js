@@ -23,7 +23,7 @@ Playstation.prototype.displayInfo = function() {
     
 };
 
-// Classe XBOX que herda de Veiculo
+// Classe XBOX que herda de Videogame
 function Xbox(marca, modelo, valor) {
     Videogame.call(this, marca, modelo, valor);
     
